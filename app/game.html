@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declan's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mainbox">
+        <header>
+            <h2>Welcome to:</h2>
+            <h1>Declan's Portfolio</h1>
+            <div class="nav">
+                <nav>
+                    <!-- Nav Bar -->
+                    &nbsp;&nbsp;&nbsp;&bull;
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="home.html" class = "textbig"><i>Home</i></a> &nbsp;&nbsp;&nbsp;&bull;
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="projects.html" class = "textbig"><i>Projects</i></a> &nbsp;&nbsp;&nbsp;&bull;
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="about.html" class = "textbig"><i>About Declan</i></a> &nbsp;&nbsp;&nbsp;&bull;
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="game.html" class = "textbig"><i>Bonus Game</i></a>&nbsp;&nbsp;&nbsp;&bull;
+                    &nbsp;&nbsp;&nbsp;
+                </nav>
+            </div>
+        </header>
+        <article>
+            <!-- Main Game with javascript -->
+            <h1>Enjoy a game!</h1>
+            <h3>Here's an accompying song:</h3>
+            <audio src="BGM.mp3" controls>
+                <p>If you are reading this, it is because your browser <br />
+                does not support the audio element.</p>
+            </audio>
+            <script src="game.js"></script>
+            <br />
+            <div class = "ui"> 
+                <div class="row"> 
+                    <input type="text" id= "b1" 
+                           class="cell" onclick="myfunc_3(); myfunc();" 
+                           readonly> 
+                    <input type="text" id= "b2" 
+                           class="cell" onclick="myfunc_4(); myfunc();" 
+                           readonly> 
+                    <input type="text" id= "b3" class="cell" 
+                           onclick="myfunc_5(); myfunc();" 
+                           readonly> 
+                </div> 
+                <div class="row"> 
+                    <input type="text" id= "b4" 
+                           class="cell" onclick="myfunc_6(); myfunc();" 
+                           readonly> 
+                    <input type="text" id= "b5" 
+                           class="cell" onclick="myfunc_7(); myfunc();" 
+                           readonly> 
+                    <input type="text" id= "b6" 
+                           class="cell" onclick="myfunc_8(); myfunc();" 
+                           readonly> 
+                </div> 
+                <div class="row"> 
+                    <input type="text" id= "b7" 
+                           class="cell" onclick="myfunc_9(); myfunc();" 
+                           readonly> 
+                    <input type="text" id= "b8" 
+                           class="cell" onclick="myfunc_10();myfunc();" 
+                           readonly> 
+                    <input type="text" id= "b9" 
+                           class="cell" onclick="myfunc_11();myfunc();" 
+                           readonly> 
+                </div> 
+            </div> 
+            <br><br><br> 
+            
+            <button id="but" onclick="myfunc_2()"> 
+                RESET 
+            </button> 
+            <br><br> 
+            <p id="print"></p> 
+        </div>
+        </article>
+        <footer>
+            <a href="#top">Top of Page</a>
+        </footer>
+    </div>
+</body>
+</html>
